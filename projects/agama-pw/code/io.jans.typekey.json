@@ -23,7 +23,7 @@
 					"id": "Agama-rrf-Node-098a2000-5438-4b2a-be71-5ab18889df04",
 					"parentId": "Agama-when-Node-6d28acb4-dbc2-4729-b231-e7643218c4e2",
 					"type": "Agama-rrf-Node",
-					"displayName": "",
+					"displayName": "Record password data",
 					"hasComment": true,
 					"comment": "",
 					"whenCondition": "WhenFalse",
@@ -33,9 +33,10 @@
 					"templatePath": "password.ftlh",
 					"asssignedVariableName": "password",
 					"arguments": "password"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 878.6841454749709,
@@ -77,7 +78,8 @@
 					"returnVariable": "User not found",
 					"finishMode": "withFailure",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"positionAbsolute": {
@@ -113,17 +115,16 @@
 					"variableField": "userData.empty",
 					"conditionInputField": "is",
 					"valueField": "true",
-					"hasComment": true,
-					"inRepeatBlock": false,
-					"hasSuccess": true,
-					"hasFailure": true
+					"hasComment": false,
+					"inRepeatBlock": false
 				},
 				"handles": [
 					"Agama-when-Node-6d28acb4-dbc2-4729-b231-e7643218c4e2.FAILURE",
 					"Agama-when-Node-6d28acb4-dbc2-4729-b231-e7643218c4e2.SUCCESS"
-				]
+				],
+				"skake": true
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 628.6841454749709,
@@ -166,7 +167,8 @@
 					"arguments": "user.username",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "userData"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -212,7 +214,8 @@
 					"hasFailure": "",
 					"hasNoRepeat": false,
 					"hasRepeat": false
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -250,7 +253,7 @@
 					"configs": "conf",
 					"flowname": "io.jans.typekey"
 				},
-				"skake": true
+				"skake": false
 			},
 			"position": {
 				"x": 28.684145474970933,

@@ -1,7 +1,3 @@
 Flow io.jans.typekey
      Basepath ""
      Configs conf
-user = RRF "username.ftlh" user
-userData = Call io.jans.agamalab.IdentityProcessor#accountFromEmail user.username
-empty = userData.uid
-When empty is true

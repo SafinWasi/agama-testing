@@ -13,6 +13,9 @@
             "authentication"
         ],
         "noDirectLaunch": [],
-        "configs": {}
+        "configs": {
+            "io.jans.typekey": {}
+        },
+        "name": "agama-pw"
     }
 }

@@ -13,17 +13,7 @@
             "authentication"
         ],
         "noDirectLaunch": [],
-        "configs": {
-            "io.jans.typekey": {
-                "keystoreName": "",
-                "keystorePassword": "",
-                "org_id": "",
-                "clientId": "",
-                "clientSecret": "",
-                "authHost": "https://account-dev.gluu.cloud",
-                "scanHost": "https://cloud-dev.gluu.cloud"
-            }
-        },
+        "configs": {},
         "name": "agama-pw"
     }
 }

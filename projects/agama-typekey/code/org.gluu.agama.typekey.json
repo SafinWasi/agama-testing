@@ -1,0 +1,35 @@
+[
+  {
+    "id": "Agama-start-Flow-89fbac86-b6c9-48ed-875d-7fb0fda29181",
+    "type": "start",
+    "sourcePosition": "right",
+    "data": {
+      "id": "Agama-start-Flow-89fbac86-b6c9-48ed-875d-7fb0fda29181",
+      "type": "Agama-start-Flow",
+      "position": {
+        "x": 30,
+        "y": 30
+      },
+      "inRepeatBlock": false,
+      "agamaData": {
+        "id": "Agama-start-Flow-89fbac86-b6c9-48ed-875d-7fb0fda29181",
+        "type": "Agama-start-Flow",
+        "displayName": "Typekey",
+        "hasComment": true,
+        "comment": "",
+        "isTopLevelFlow": true,
+        "basepath": "",
+        "configParams": "{}",
+        "nodeIcon": "material-symbols:line-start-square",
+        "timeout": "",
+        "inputs": "",
+        "configs": "",
+        "flowname": "org.gluu.agama.typekey"
+      }
+    },
+    "position": {
+      "x": 30,
+      "y": 30
+    }
+  }
+]

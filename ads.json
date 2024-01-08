@@ -14,7 +14,15 @@
         ],
         "noDirectLaunch": [],
         "configs": {
-            "org.gluu.agama.typekey": {}
+            "org.gluu.agama.typekey": {
+                "keystoreName": "",
+                "keystorePassword": "",
+                "org_id": "",
+                "clientId": "",
+                "clientSecret": "",
+                "authHost": "https://account.gluu.org",
+                "scanHost": "https://cloud.gluu.org"
+            }
         },
         "name": "agama-typekey"
     }

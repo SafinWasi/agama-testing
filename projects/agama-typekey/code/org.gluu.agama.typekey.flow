@@ -2,22 +2,22 @@ Flow org.gluu.agama.typekey
      Basepath ""
      Configs conf
 Log "@info Starting Typekey authentication"
-user = RRF "username.ftlh" user
+user = RRF "typekey/username.ftlh" user
 userData = Call io.jans.agamalab.IdentityProcessor#placeholder user.username
 When userData.empty is true
-     it_nfidh = {success:false, error: "User not found"}
-     Finish it_nfidh
-password = RRF "password.ftlh" password
+     it_zntll = {success:false, error: "User not found"}
+     Finish it_zntll
+password = RRF "typekey/password.ftlh" password
 tk = Call io.jans.typekey.Typekey#new conf
 result = Call tk validateKeystrokes user.username user.k_username password.k_password conf.org_id
 When result is -1
-     it_dxaxu = {success:false, error: "Typekey denied"}
-     Finish it_dxaxu
+     it_jjvoh = {success:false, error: "Typekey denied"}
+     Finish it_jjvoh
 When result is -2
      Log "@error API error, please check jans-auth.log"
-     it_lehtv = {success:false, error: "API error"}
-     Finish it_lehtv
+     it_lbpww = {success:false, error: "API error"}
+     Finish it_lbpww
 res = Call tk notifyKeystrokes user.username result
 uid = userData.uid
-it_mmzot = {success:true, data: { userId: uid}}
-Finish it_mmzot
+it_zcyfh = {success:true, data: { userId: uid}}
+Finish it_zcyfh

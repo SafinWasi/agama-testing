@@ -1,6 +1,0 @@
-Flow org.gluu.agama.typekey
-     Basepath ""
-     Configs conf
-user = RRF "username.ftlh" user
-userData = Call io.jans.agamalab.IdentityProcessor#accountFromEmail user.username
-When userData.empty is true

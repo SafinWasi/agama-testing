@@ -12,6 +12,7 @@ public class TypekeyConfiguration {
 
     private String authHost;
     private String scanHost;
+    private String orgId;
 
     public String getKeystoreName() {
         return keystoreName;
@@ -59,6 +60,14 @@ public class TypekeyConfiguration {
 
     public void setScanHost(String host) {
         this.scanHost = host;
+    }
+    
+    public String getOrgId() {
+        return orgId;
+    }
+
+    public void setOrgId(String id) {
+        this.orgId = id;
     }
 
 }

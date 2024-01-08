@@ -32,9 +32,10 @@
 					"returnVariable": "{ userId: uid}",
 					"finishMode": "withSuccess",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 2632,
@@ -77,7 +78,8 @@
 						}
 					],
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -122,7 +124,8 @@
 					"arguments": "user.username result",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "res"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -164,7 +167,8 @@
 					"finishMode": "withFailure",
 					"nodeIcon": "material-symbols:line-end-square-rounded",
 					"displayName": "API error"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -174,8 +178,8 @@
 			}
 		},
 		{
-			"width": 170,
-			"height": 123,
+			"width": 168,
+			"height": 120,
 			"id": "Agama-log-Node-bbc40436-d342-45af-a789-5e31f96a2bca",
 			"position": {
 				"x": 2095,
@@ -201,12 +205,13 @@
 					"comment": "",
 					"whenCondition": "WhenTrue",
 					"inRepeatBlock": false,
-					"logMessage": "API error, please check jans-auth.log",
+					"logMessage": "\"API error, please check jans-auth.log\"",
 					"logLevel": "error",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": true
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 2095,
@@ -248,7 +253,8 @@
 				"handles": [
 					"Agama-when-Node-5e9e8731-bd27-407f-acdb-734f10c04c44.FAILURE",
 					"Agama-when-Node-5e9e8731-bd27-407f-acdb-734f10c04c44.SUCCESS"
-				]
+				],
+				"skake": false
 			},
 			"selected": false,
 			"positionAbsolute": {
@@ -293,7 +299,8 @@
 					"finishMode": "withFailure",
 					"nodeIcon": "material-symbols:line-end-square-rounded",
 					"displayName": "Typekey denied"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -336,7 +343,8 @@
 				"handles": [
 					"Agama-when-Node-ea63a03b-c6d3-4fb0-ad84-5acbb778996e.FAILURE",
 					"Agama-when-Node-ea63a03b-c6d3-4fb0-ad84-5acbb778996e.SUCCESS"
-				]
+				],
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -381,7 +389,8 @@
 					"arguments": "user.username user.k_username password.k_password conf.org_id",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "result"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -426,7 +435,8 @@
 					"arguments": "conf",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "tk"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -468,7 +478,8 @@
 					"templatePath": "password.ftlh",
 					"asssignedVariableName": "password",
 					"arguments": "password"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -512,7 +523,8 @@
 					"returnVariable": "User not found",
 					"finishMode": "withFailure",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -556,7 +568,8 @@
 				"handles": [
 					"Agama-when-Node-63e2622c-a4dc-4602-9ee6-b0741e4bd351.FAILURE",
 					"Agama-when-Node-63e2622c-a4dc-4602-9ee6-b0741e4bd351.SUCCESS"
-				]
+				],
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -601,7 +614,8 @@
 					"arguments": "user.username",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "userData"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -643,7 +657,8 @@
 					"templatePath": "username.ftlh",
 					"asssignedVariableName": "user",
 					"arguments": "user"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -683,7 +698,8 @@
 					"logMessage": "\"Starting Typekey authentication\"",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -1016,8 +1032,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1862.8951271501737,
-		"y": 134.684145474971,
+		"x": -1176.8951271501737,
+		"y": 61.68414547497105,
 		"zoom": 1
 	}
 }

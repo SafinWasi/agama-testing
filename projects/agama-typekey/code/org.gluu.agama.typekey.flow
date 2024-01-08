@@ -5,19 +5,19 @@ Log "@info Starting Typekey authentication"
 user = RRF "username.ftlh" user
 userData = Call io.jans.agamalab.IdentityProcessor#placeholder user.username
 When userData.empty is true
-     it_ujmrm = {success:false, error: "User not found"}
-     Finish it_ujmrm
+     it_nfidh = {success:false, error: "User not found"}
+     Finish it_nfidh
 password = RRF "password.ftlh" password
 tk = Call io.jans.typekey.Typekey#new conf
 result = Call tk validateKeystrokes user.username user.k_username password.k_password conf.org_id
 When result is -1
-     it_plpzm = {success:false, error: "Typekey denied"}
-     Finish it_plpzm
+     it_dxaxu = {success:false, error: "Typekey denied"}
+     Finish it_dxaxu
 When result is -2
-     Log "@error " API error, please check jans-auth.log
-     it_grust = {success:false, error: "API error"}
-     Finish it_grust
+     Log "@error API error, please check jans-auth.log"
+     it_lehtv = {success:false, error: "API error"}
+     Finish it_lehtv
 res = Call tk notifyKeystrokes user.username result
 uid = userData.uid
-it_ekoqb = {success:true, data: { userId: uid}}
-Finish it_ekoqb
+it_mmzot = {success:true, data: { userId: uid}}
+Finish it_mmzot

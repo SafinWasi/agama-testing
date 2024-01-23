@@ -20,8 +20,8 @@
                 "orgId": "",
                 "clientId": "",
                 "clientSecret": "",
-                "authHost": "https://account-dev.gluu.cloud",
-                "scanHost": "https://cloud-dev.gluu.cloud",
+                "authHost": "https://account.gluu.org",
+                "scanHost": "https://cloud.gluu.org",
                 "phrases": {
                     "1": "Lorem Ipsum",
                     "2": "Dolor Si Amet"

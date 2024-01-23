@@ -26,6 +26,19 @@
                     "1": "Lorem Ipsum",
                     "2": "Dolor Si Amet"
                 }
+            },
+            "": {
+                "keystoreName": "",
+                "keystorePassword": "",
+                "orgId": "",
+                "clientId": "",
+                "clientSecret": "",
+                "authHost": "https://account.gluu.org",
+                "scanHost": "https://cloud.gluu.org",
+                "phrases": {
+                    "1": "Lorem Ipsum",
+                    "2": "Dolor Si Amet"
+                }
             }
         },
         "name": "agama-typekey"

@@ -1,4 +1,4 @@
-# Typekey
+# agama-typekey
 An Agama flow designed to authenticate against the Typekey API to test behavioral metrics
 
 ## Setup

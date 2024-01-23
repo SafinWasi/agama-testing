@@ -87,7 +87,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 2401,
@@ -674,7 +674,7 @@
 					"comment": "",
 					"isTopLevelFlow": true,
 					"basepath": "",
-					"configParams": "{\n  \"keystoreName\": \"\",\n  \"keystorePassword\": \"\",\n  \"orgId\": \"\",\n  \"clientId\": \"\",\n  \"clientSecret\": \"\",\n  \"authHost\": \"https://account-dev.gluu.cloud\",\n  \"scanHost\": \"https://cloud-dev.gluu.cloud\",\n  \"phrases\": {\n    \"1\": \"Lorem Ipsum\",\n    \"2\": \"Dolor Si Amet\"\n  }\n}",
+					"configParams": "{\n  \"keystoreName\": \"\",\n  \"keystorePassword\": \"\",\n  \"orgId\": \"\",\n  \"clientId\": \"\",\n  \"clientSecret\": \"\",\n  \"authHost\": \"https://account.gluu.org\",\n  \"scanHost\": \"https://cloud.gluu.org\",\n  \"phrases\": {\n    \"1\": \"Lorem Ipsum\",\n    \"2\": \"Dolor Si Amet\"\n  }\n}",
 					"nodeIcon": "material-symbols:line-start-square",
 					"timeout": "",
 					"inputs": "",
@@ -687,7 +687,7 @@
 				"x": 30,
 				"y": 30
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 30,

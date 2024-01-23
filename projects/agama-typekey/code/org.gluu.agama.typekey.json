@@ -85,7 +85,7 @@
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "res"
 				},
-				"skake": true
+				"skake": false
 			},
 			"selected": true,
 			"dragging": false,
@@ -940,8 +940,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1062.4800751435987,
-		"y": 345.1666564941406,
+		"x": 10,
+		"y": 15,
 		"zoom": 1
 	}
 }

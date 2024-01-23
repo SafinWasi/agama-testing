@@ -9,13 +9,13 @@ user = RRF "typekey/username.ftlh" user
 idp = Call org.gluu.agama.typekey.IdentityProcessor#new 
 userData = Call idp accountFromUsername user.username
 When userData.empty is true
-     it_tagdv = {success:false, error: "Account not found"}
-     Finish it_tagdv
+     it_lktav = {success:false, error: "Account not found"}
+     Finish it_lktav
 tk = Call org.gluu.agama.typekey.Typekey#new conf
 enrolled = Call idp enrolled user.username
 When enrolled is false
      random_usecase = Call tk getRandomUseCase 
      phrase_map = Call tk getPhraseMap random_usecase
      res = Call idp enroll user.username phrase_map
-it_bmrbf = {success:true, data: { userId: user.username}}
-Finish it_bmrbf
+it_nkejy = {success:true, data: { userId: user.username}}
+Finish it_nkejy

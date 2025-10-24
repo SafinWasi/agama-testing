@@ -1,1 +1,19 @@
-{}
+{
+    "agama-authzen": {
+        "projectName": "agama-authzen",
+        "description": "Experimental agama flow for authzen",
+        "type": "community",
+        "author": "SafinWasi",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/SafinWasi/agama-testing",
+        "githubUri": "https://github.com/SafinWasi/agama-testing",
+        "license": "apache-2.0",
+        "lastUpdated": "1761300824361",
+        "tags": [
+            "openid-connect",
+            "authorization"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
+    }
+}

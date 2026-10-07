@@ -1,0 +1,20 @@
+{
+    "testingProject": {
+        "projectName": "testingProject",
+        "description": "string",
+        "type": "string",
+        "author": "string",
+        "version": "string",
+        "authorWebsite": "string",
+        "githubUri": "string",
+        "license": "Apache 2",
+        "lastUpdated": "string",
+        "tags": [
+            "string"
+        ],
+        "noDirectLaunch": [
+            "string"
+        ],
+        "configs": {}
+    }
+}
